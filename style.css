@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: 'Lora', serif;
+}
+
+img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+#title {
+	font-size: 100px;
+}
+
+.movietitle, .movietitle-1 {
+	font-size: 50px;
+	font-weight: bold;
+	padding: 0 2%;
+	color: white;
+}
+
+.movietitle {
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	transform: translate(0, -50%);
+}
+
+.movietitle-1 {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(0, -50%);
+}
+
+.button {
+	position: relative;
+	padding: 0.3% 0;
+}
+
+.button img:hover {
+	animation: acordion 1s;
+	height: 300px;
+	transition: 0.4s;
+}
+
+@keyframes acordion {
+	from {
+		height: 300px;
+	}
+	to {
+		height: 500px;
+	}
+}
+
+.button img {
+	transition: 0.4s;
+}
